@@ -35,6 +35,10 @@ var config = {
 		{
 			module: "alert",
 		},
+		{	
+			module: "MMM-Timer",
+			position: "top_right",
+		},
 		{
 			module: "updatenotification",
 			position: "top_bar"
