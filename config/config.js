@@ -36,8 +36,12 @@ var config = {
 			module: "alert",
 		},
 		{	
-			module: "MMM-Timer",
-			position: "top_right",
+			module: 'MMM-SimpleLogo',
+			position: 'top_right',    // This can be any of the regions.
+			config: {
+				// The config property is optional.
+				// See 'Configuration options' for more information.
+        }
 		},
 		{
 			module: "updatenotification",
